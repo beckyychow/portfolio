@@ -10,20 +10,20 @@ import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free
 const Sidebar = () => {
   return (
     <div className='nav-bar'>
-        <Link className='logo' to='/portfolio'>
+        <Link className='logo' to='/'>
             <img src={LogoS} alt='logo' />
             <img className='sub-logo' src={LogoSubtitle} alt='logo' />
         </Link>
         <nav>
-            <NavLink exact='true' activeclassname='active' to='/portfolio'>
+            <NavLink exact='true' activeclassname='active' to='/'>
                 <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
             </NavLink>
 
-            <NavLink exact='true' activeclassname='active' className='about-link' to='/portfolio/about'>
+            <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
             </NavLink>
 
-            <NavLink exact='true' activeclassname='active' className='contact-link' to='/portfolio/contact'>
+            <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
             </NavLink>
         </nav>
