@@ -24,18 +24,14 @@ const About = () => {
               </h1>
 
               <p>
-                I'm very ambitious front-end developer looking for a role in
-                established IT company with the opportunity to work with the latest
-                technologies on challenging and diverse projects.
+              I have the ambition to try and assert myself in the field of telesale and contribute outstanding achievements to the future company.
               </p>
               <p align="LEFT">
-                I'm quietly confident, naturally curious, and perpetually working on
-                improving my chops one design problem at a time.
+              I have good persuasion, negotiation and problem solving skills. Besides, I am also a confident person who loves challenges and new experiences. Ability to work in a highly competitive environment
+              
               </p>
               <p>
-                If I need to define myself in one sentence that would be a family
-                person, father of a beautiful daughter, a sports fanatic,
-                photography enthusiast, and tech-obsessed!!!
+              
               </p>
           </div>
 

@@ -8,16 +8,16 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 const Contact = () => {
 
     const refForm = useRef();
-    const position = [10.870619999029694, 106.80348325104663];
+    const position = [10.8777622,106.8011063];
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_3h5wt96',
-            'template_qd3vfvg',
+            'service_rrxlrci',
+            'template_e71x8wq',
             refForm.current,
-            'dJDvUnx_SzXKPEJJJ'
+            '-lQk6qV2Vgjx71IuR'
         ).then(
             () => {
                 alert('Message successfully sent!');
@@ -46,9 +46,9 @@ const Contact = () => {
                 </h1>
 
                 <p>
-                    I am interested in freelance opportunities - especially ambitious or
-                    large projects. However, if you have other request or question,
-                    don't hesitate to contact me using below form either.
+                Phone: 0784643202
+                Email: juliabekool@gmail.com
+
                 </p>
                     
                 <div className='contact-form'>
@@ -75,14 +75,14 @@ const Contact = () => {
             </div>
 
             <div className='info-map'>
-                Thanh Quang,
+                Bao Chau,
                 <br/>
                 VietNam,
                 <br/>
-                University of Information Technology
+                International University 
                 <br/>
                 Thu Duc, Ho Chi Minh city
-                <span>thanhquangq998@gmail.com</span>
+                <span>juliabekool@gmail.com</span>
             </div>
 
             <div className='map-wrap'>
@@ -93,7 +93,7 @@ const Contact = () => {
                     />
                     <Marker position={position}>
                         <Popup>
-                            Thanh Quang lives here,
+                            Bao Chau lives here,
                             <br/>
                             Come for a cup of coffee
                         </Popup>

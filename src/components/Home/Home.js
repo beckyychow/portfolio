@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import LogoTitle from '../../assets/images/logo-s.png';
+import LogoTitle from '../../assets/images/logoB.png';
 import { Link } from 'react-router-dom'
 import './Home.scss'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
@@ -8,8 +8,8 @@ import Loader from 'react-loaders';
 const Home = () => {
 
   const [letterClass, setLetterClass] = useState('text-animate-hover');
-  const nameArray = ['h','a','n','h',' ','Q','u','a','n','g'];
-  const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r'];
+  const nameArray = ['a','o',' ','C','h','a','u'];
+  const jobArray = ['T','e','l','e','s','a','l','e'];
 
   setTimeout(() => {
     setLetterClass('text-animate-hover')
@@ -32,7 +32,7 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={25}/>
               </h1>
 
-              <h2>Full-Stack Developer / JavaScript Fresher</h2>
+              <h2>English Teacher / Saler</h2>
               <Link to='/contact' className='flat-button'>CONTACT ME</Link>
           </div>
       </div>
